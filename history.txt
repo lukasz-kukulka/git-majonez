@@ -1,0 +1,50 @@
+  950  less 10 ~/.bashrc
+  951  less ~/.bashrc
+  952  vim ~/.bashrc
+  953  we have nothing to do with issuing P60 this is employer payroll matter
+  954  10: No such file or directory
+  955  clear
+  956  cd ..
+  957  ls
+  958  mkdir git_homework
+  959  cd git_homework/
+  960  mkdir git-majonez
+  961  cd git-majonez/
+  962  git init
+  963  ls -al
+  964  vim main.cpp
+  965  cat main.cpp 
+  966  add main.cpp 
+  967  git add main.cpp 
+  968  git commit -m "Initial commit"
+  969  vim main.cpp
+  970  git status
+  971  git add main.cpp 
+  972  git commit -m "Farewell changed"
+  973  git remote add origin https://github.com/lukasz-kukulka/git-majonez.git
+  974  git remote -v
+  975  git push -u origin master
+  976  git checkout -b cs
+  977  git log
+  978  git reset --hard HEAD
+  979  git log
+  980  git reset --hard D
+  981  D
+  982  git reset --hard 32abf4ca23
+  983  git log
+  984  git branch master
+  985  git checkout master 
+  986  git log
+  987  git checkout cs
+  988  vim main.cpp
+  989  git add main.cpp 
+  990  git commit -m "Greetings"
+  991  git push origin cs
+  992  git checkout master
+  993  git merge cs
+  994  git status
+  995  vim main.cpp 
+  996  git add main.cpp 
+  997  history
+  998  less 45 > history.txt
+  999  history | tail -n 50 > history.txt
