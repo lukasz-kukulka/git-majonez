@@ -10,8 +10,9 @@
   959  cd git_homework/
   960  mkdir git-majonez
   961  cd git-majonez/
-  962  git init
-  963  ls -al
+  961  git init
+  962  ls -al
+  963  touch main.cpp
   964  vim main.cpp
   965  cat main.cpp
   966  add main.cpp
