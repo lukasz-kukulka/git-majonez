@@ -13,13 +13,13 @@
   962  git init
   963  ls -al
   964  vim main.cpp
-  965  cat main.cpp 
-  966  add main.cpp 
-  967  git add main.cpp 
+  965  cat main.cpp
+  966  add main.cpp
+  967  git add main.cpp
   968  git commit -m "Initial commit"
   969  vim main.cpp
   970  git status
-  971  git add main.cpp 
+  971  git add main.cpp
   972  git commit -m "Farewell changed"
   973  git remote add origin https://github.com/lukasz-kukulka/git-majonez.git
   974  git remote -v
@@ -33,18 +33,19 @@
   982  git reset --hard 32abf4ca23
   983  git log
   984  git branch master
-  985  git checkout master 
+  985  git checkout master
   986  git log
   987  git checkout cs
   988  vim main.cpp
-  989  git add main.cpp 
+  989  git add main.cpp
   990  git commit -m "Greetings"
   991  git push origin cs
   992  git checkout master
   993  git merge cs
   994  git status
-  995  vim main.cpp 
-  996  git add main.cpp 
+  995  vim main.cpp
+  996  git add main.cpp
   997  history
   998  less 45 > history.txt
   999  history | tail -n 50 > history.txt
+
